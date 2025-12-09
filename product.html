@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our collection of smartphones, accessories, and smartwatches at Harizon">
+    <title>Products - Harizon</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-logo">
+                <svg viewBox="0 0 24 24"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+                Harizon
+            </a><ul class="navbar-menu">
+                <li><a href="index.html" class="navbar-link">Home</a></li>
+                <li><a href="product.html" class="navbar-link active">Products</a></li>
+                <li><a href="about.html" class="navbar-link">About</a></li>
+                <li><a href="contact.html" class="navbar-link">Contact</a></li>
+                <li><a href="feedback.html" class="navbar-link">Feedback</a></li>
+            </ul>
+            <div class="navbar-icons">
+                <a href="product.html" aria-label="Search products"><svg class="navbar-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a>
+                <a href="product.html" aria-label="Shopping cart"><svg class="navbar-icon" viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg></a>
+            </div><div class="navbar-auth"><a href="login.html" class="navbar-auth-btn navbar-auth-btn-login">Login</a><a href="signup.html" class="navbar-auth-btn navbar-auth-btn-register">Register</a></div></div></nav>
+
+    <main>
+
+        <section class="section">
+            <div class="container">
+                <!- Search Bar ->
+                <div class="search-bar">
+                    <form class="search-bar-form" action="#" method="get">
+                        <input type="text" class="search-bar-input" placeholder="Search for phones, watches, accessories..." name="search">
+                        <button type="submit" class="search-bar-btn">
+                            <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                            Search
+                        </button>
+                    </form>
+                </div>
+
+                <!- Category Filters ->
+                <div class="category-filters">
+                    <span class="category-filter active">All Products</span>
+                    <span class="category-filter">Smartphones</span>
+                    <span class="category-filter">Smart Watches</span>
+                    <span class="category-filter">Accessories</span>
+                    <span class="category-filter">Earbuds</span>
+                </div>
+
+                <!- Products Grid ->
+                <div class="products-grid">
+                    <article class="product-card">
+                        <span class="product-card-badge">New</span>
+                        <div class="product-card-image"><img src="assets/images/samsung-galaxy-s24-ultra.jpg" alt="Samsung Galaxy S24 Ultra"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smartphone</span>
+                            <h3 class="product-card-title">Samsung Galaxy S24 Ultra</h3>
+                            <p class="product-card-specs">6.8" AMOLED | 256GB | 5G</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$1299</span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <span class="product-card-badge">Hot</span>
+                        <div class="product-card-image"><img src="assets/images/apple-iphone-15-pro-1.jpg" alt="iPhone 15 Pro"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smartphone</span>
+                            <h3 class="product-card-title">iPhone 15 Pro</h3>
+                            <p class="product-card-specs">6.1" Super Retina | 256GB | 5G</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$999</span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card-image"><img src="assets/images/google-pixel-8-pro-1.jpg" alt="Google Pixel 8 Pro"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smartphone</span>
+                            <h3 class="product-card-title">Google Pixel 8 Pro</h3>
+                            <p class="product-card-specs">6.7" OLED | 128GB | 5G</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$999</span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <span class="product-card-badge">Sale</span>
+                        <div class="product-card-image"><img src="assets/images/Apple_Watch_Ultra_2.webp" alt="Apple Watch Ultra 2"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smart Watch</span>
+                            <h3 class="product-card-title">Apple Watch Ultra 2</h3>
+                            <p class="product-card-specs">49mm | GPS | Titanium</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$699<span class="product-card-price-old">$799</span></span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <span class="product-card-badge">-20%</span>
+                        <div class="product-card-image"><img src="assets/images/AirPods Pro 2.png" alt="AirPods Pro 2"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Accessory</span>
+                            <h3 class="product-card-title">AirPods Pro 2</h3>
+                            <p class="product-card-specs">ANC | 30h Battery | USB-C</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$199<span class="product-card-price-old">$249</span></span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <span class="product-card-badge">-15%</span>
+                        <div class="product-card-image"><img src="assets/images/samsung-galaxy-z-flip5-5g-1.webp" alt="Samsung Galaxy Z Flip5"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smartphone</span>
+                            <h3 class="product-card-title">Samsung Galaxy Z Flip5</h3>
+                            <p class="product-card-specs">6.7" Foldable | 256GB | 5G</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$849<span class="product-card-price-old">$999</span></span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <span class="product-card-badge">New</span>
+                        <div class="product-card-image"><img src="assets/images/oneplus-12-1.jpg" alt="OnePlus 12"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smartphone</span>
+                            <h3 class="product-card-title">OnePlus 12</h3>
+                            <p class="product-card-specs">6.82" AMOLED | 256GB | 5G</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$799</span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card-image"><img src="assets/images/xiaomi-14-ultra-1.jpg" alt="Xiaomi 14 Ultra"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smartphone</span>
+                            <h3 class="product-card-title">Xiaomi 14 Ultra</h3>
+                            <p class="product-card-specs">6.73" AMOLED | 512GB | 5G</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$1099</span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <span class="product-card-badge">-15%</span>
+                        <div class="product-card-image"><img src="assets/images/galaxy-buds2-pro.avif" alt="Samsung Galaxy Buds2 Pro"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Accessory</span>
+                            <h3 class="product-card-title">Galaxy Buds2 Pro</h3>
+                            <p class="product-card-specs">ANC | 360 Audio | IPX7</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$169<span class="product-card-price-old">$199</span></span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card-image"><img src="assets/images/apple-iphone-15-1.jpg" alt="iPhone 15"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smartphone</span>
+                            <h3 class="product-card-title">iPhone 15</h3>
+                            <p class="product-card-specs">6.1" Super Retina | 128GB | 5G</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$799</span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <span class="product-card-badge">Hot</span>
+                        <div class="product-card-image"><img src="assets/images/Nothing-Phone-2-2.jpg" alt="Nothing Phone 2"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smartphone</span>
+                            <h3 class="product-card-title">Nothing Phone (2)</h3>
+                            <p class="product-card-specs">6.7" OLED | 256GB | 5G</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$599</span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card-image"><img src="assets/images/huawei-watch-gt4-1.jpg" alt="Huawei Watch GT 4"></div>
+                        <div class="product-card-content">
+                            <span class="product-card-category">Smart Watch</span>
+                            <h3 class="product-card-title">Huawei Watch GT 4</h3>
+                            <p class="product-card-specs">46mm | AMOLED | 14 Days</p>
+                            <div class="product-card-footer">
+                                <span class="product-card-price">$249</span>
+                                <button class="product-card-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <svg viewBox="0 0 24 24"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+                        Harizon
+                    </a>
+                    <p class="footer-desc">Your premier destination for the latest smartphones and accessories.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="product.html" class="footer-link">Products</a></li>
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="product.html" class="footer-link">Smartphones</a></li>
+                        <li><a href="product.html" class="footer-link">Accessories</a></li>
+                        <li><a href="product.html" class="footer-link">Smart Watches</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html" class="footer-link">Help Center</a></li>
+                        <li><a href="feedback.html" class="footer-link">Feedback</a></li>
+                        <li><a href="login.html" class="footer-link">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom"><p>2025 Harizon. All rights reserved.</p></div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

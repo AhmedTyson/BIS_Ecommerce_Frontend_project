@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Share your feedback with Harizon - We value your opinion">
+    <title>Feedback - Harizon</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-logo">
+                <svg viewBox="0 0 24 24"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+                Harizon
+            </a><ul class="navbar-menu">
+                <li><a href="index.html" class="navbar-link">Home</a></li>
+                <li><a href="product.html" class="navbar-link">Products</a></li>
+                <li><a href="about.html" class="navbar-link">About</a></li>
+                <li><a href="contact.html" class="navbar-link">Contact</a></li>
+                <li><a href="feedback.html" class="navbar-link active">Feedback</a></li>
+            </ul>
+            <div class="navbar-icons">
+                <a href="product.html" aria-label="Search products"><svg class="navbar-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a>
+                <a href="product.html" aria-label="Shopping cart"><svg class="navbar-icon" viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg></a>
+            </div><div class="navbar-auth"><a href="login.html" class="navbar-auth-btn navbar-auth-btn-login">Login</a><a href="signup.html" class="navbar-auth-btn navbar-auth-btn-register">Register</a></div></div></nav>
+
+    <main>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Share Your Experience</h2>
+                    <p class="section-subtitle">Your feedback helps us improve our service</p>
+                </div>
+                
+                <form class="form" action="#" method="post">
+                    <div class="form-group">
+                        <label class="form-label">Rate Your Experience</label>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" class="rating-input">
+                            <label for="star5" class="rating-label">&#9733;</label>
+                            <input type="radio" id="star4" name="rating" value="4" class="rating-input">
+                            <label for="star4" class="rating-label">&#9733;</label>
+                            <input type="radio" id="star3" name="rating" value="3" class="rating-input">
+                            <label for="star3" class="rating-label">&#9733;</label>
+                            <input type="radio" id="star2" name="rating" value="2" class="rating-input">
+                            <label for="star2" class="rating-label">&#9733;</label>
+                            <input type="radio" id="star1" name="rating" value="1" class="rating-input" required>
+                            <label for="star1" class="rating-label">&#9733;</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email (optional)</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback" class="form-label">Your Feedback</label>
+                        <textarea id="feedback" name="feedback" class="form-textarea" placeholder="Tell us about your experience..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit">Submit Feedback</button>
+                </form>
+                
+                <div class="reviews">
+                    <h3 class="text-center section-subtitle">What Our Customers Say</h3>
+                    
+                    <div class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-card-avatar">JD</div>
+                            <div class="review-card-info">
+                                <h4>John Doe</h4>
+                                <div class="review-card-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                            </div>
+                        </div>
+                        <p class="review-card-text">Excellent service and genuine products! I purchased my Galaxy Pro Max from Harizon and couldn't be happier. The staff was knowledgeable and helped me choose the perfect phone for my needs. Highly recommended!</p>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-card-avatar">SM</div>
+                            <div class="review-card-info">
+                                <h4>Sarah Miller</h4>
+                                <div class="review-card-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                            </div>
+                        </div>
+                        <p class="review-card-text">Great selection of accessories at competitive prices. The delivery was quick and the packaging was secure. Will definitely shop here again for my tech needs.</p>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-card-avatar">MJ</div>
+                            <div class="review-card-info">
+                                <h4>Mike Johnson</h4>
+                                <div class="review-card-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                            </div>
+                        </div>
+                        <p class="review-card-text">The smartwatch I bought works perfectly and came with all the promised features. Customer service was responsive when I had questions about setup. Five stars!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <svg viewBox="0 0 24 24"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+                        Harizon
+                    </a>
+                    <p class="footer-desc">Your premier destination for the latest smartphones and accessories.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="product.html" class="footer-link">Products</a></li>
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="product.html" class="footer-link">Smartphones</a></li>
+                        <li><a href="product.html" class="footer-link">Accessories</a></li>
+                        <li><a href="product.html" class="footer-link">Smart Watches</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html" class="footer-link">Help Center</a></li>
+                        <li><a href="feedback.html" class="footer-link">Feedback</a></li>
+                        <li><a href="login.html" class="footer-link">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom"><p>2025 Harizon. All rights reserved.</p></div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
