@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Haven</title>
+    <meta name="description" content="Experience the finest dining at Gourmet Haven.">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+
+<body>
+<!-- Skip to Content Link - Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="main-header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Gourmet Haven</a>
+            
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+                <span class="hamburger"></span>
+            </label>
+
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="feedback.html" class="active">Feedback</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn-outline">Login</a>
+                    <a href="signup.html" class="btn">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main id="main-content">
+    <!-- Hero Cover -->
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="container page-hero-content">
+            <span class="hero-label">Your Voice Matters</span>
+            <h1>Share Your Feedback</h1>
+            <p class="hero-subtitle">Help us serve you better</p>
+        </div>
+    </section>
+
+    <section class="feedback-section section-padding">
+        <div class="container">
+            <!-- Feedback Form -->
+            <div class="feedback-form-wrapper">
+                <div class="card card-padded">
+                    <h2 class="text-center mb-4">Rate Your Experience</h2>
+                    <form action="#" method="POST">
+                        <div class="form-group text-center">
+                            <div class="star-rating-large">
+                                <input type="radio" name="rating" value="5" id="star5"><label for="star5">★</label>
+                                <input type="radio" name="rating" value="4" id="star4"><label for="star4">★</label>
+                                <input type="radio" name="rating" value="3" id="star3"><label for="star3">★</label>
+                                <input type="radio" name="rating" value="2" id="star2"><label for="star2">★</label>
+                                <input type="radio" name="rating" value="1" id="star1"><label for="star1">★</label>
+                            </div>
+                        </div>
+                        <div class="grid grid-2">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email (optional)</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment" class="form-label">Tell us about your visit</label>
+                            <textarea id="comment" name="comment" class="form-control" placeholder="What did you enjoy? How can we improve?" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-large w-full">Submit Feedback</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Reviews Section -->
+            <div class="reviews-section mt-40">
+                <h2 class="text-center mb-4">What Our Guests Say</h2>
+                <div class="grid grid-3">
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">"Absolutely amazing food! The truffle pasta is to die for. Will definitely come back!"</p>
+                        <div class="review-author">
+                            <div class="review-avatar">JD</div>
+                            <div>
+                                <p class="review-name">Jane Doe</p>
+                                <p class="review-date">2 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">★★★★☆</div>
+                        <p class="review-text">"Great atmosphere and service. The steak was cooked perfectly."</p>
+                        <div class="review-author">
+                            <div class="review-avatar">JS</div>
+                            <div>
+                                <p class="review-name">John Smith</p>
+                                <p class="review-date">1 week ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">"Best desserts in town! The chocolate lava cake is heavenly."</p>
+                        <div class="review-author">
+                            <div class="review-avatar">EC</div>
+                            <div>
+                                <p class="review-name">Emily Chen</p>
+                                <p class="review-date">2 weeks ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="main-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- Brand -->
+            <div class="footer-brand">
+                <h3>Gourmet Haven</h3>
+                <p>Experience the finest culinary delights in a warm and elegant atmosphere. Join us for an unforgettable dining journey.</p>
+            </div>
+            
+            <!-- Interact -->
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="footer-links-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Our Menu</a></li>
+                    <li><a href="contact.html">Reservations</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal -->
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul class="footer-links-list">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form class="footer-newsletter" action="#">
+                    <input type="email" placeholder="Your Email Address" aria-label="Email Address" required>
+                    <button type="submit" class="btn w-full">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gourmet Haven. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+

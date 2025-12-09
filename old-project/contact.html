@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Haven</title>
+    <meta name="description" content="Experience the finest dining at Gourmet Haven.">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+
+<body>
+<!-- Skip to Content Link - Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="main-header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Gourmet Haven</a>
+            
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+                <span class="hamburger"></span>
+            </label>
+
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Menu</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn-outline">Login</a>
+                    <a href="signup.html" class="btn">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <!-- Hero Cover -->
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="container page-hero-content">
+            <span class="hero-label">Get in Touch</span>
+            <h1>Contact Us</h1>
+            <p class="hero-subtitle">We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <section class="contact-section section-padding">
+        <div class="container">
+            <div class="grid grid-2">
+                <!-- Contact Info & Map -->
+                <div class="contact-info">
+                    <span class="section-label">Reach Out</span>
+                    <h2>Get in Touch</h2>
+                    <p class="contact-intro">We'd love to hear from you. Visit us, call us, or send a message.</p>
+                    
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon-circle">1</div>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>123 Culinary St, Food City, FC 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon-circle">2</div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 234 567 890</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon-circle">3</div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>info@gourmethaven.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon-circle">4</div>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p>Mon-Sun: 10:00 AM - 11:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container mt-40">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13634.27317495549!2d31.23637219592986!3d30.089624658754428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458405895555555%3A0x7c04a84ad2086b3b!2sSobhy%20Kaber!5e0!3m2!1sen!2sus!4v1765099913087!5m2!1sen!2sus" class="map-iframe" title="Google Map location of Gourmet Haven" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper card card-padded">
+                    <h2 class="mb-4">Send us a Message</h2>
+                    <form action="#" method="POST"> <!-- Static form, no backend -->
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+                        </div>
+                         <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                           <select id="subject" name="subject" class="form-control">
+                                <option value="reservation">Reservation</option>
+                                <option value="inquiry">General Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="main-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- Brand -->
+            <div class="footer-brand">
+                <h3>Gourmet Haven</h3>
+                <p>Experience the finest culinary delights in a warm and elegant atmosphere. Join us for an unforgettable dining journey.</p>
+            </div>
+            
+            <!-- Interact -->
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="footer-links-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Our Menu</a></li>
+                    <li><a href="contact.html">Reservations</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal -->
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul class="footer-links-list">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form class="footer-newsletter" action="#">
+                    <input type="email" placeholder="Your Email Address" aria-label="Email Address" required>
+                    <button type="submit" class="btn w-full">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gourmet Haven. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+

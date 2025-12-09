@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Haven</title>
+    <meta name="description" content="Experience the finest dining at Gourmet Haven.">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+
+<body>
+<!-- Skip to Content Link - Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="main-header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Gourmet Haven</a>
+            
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+                <span class="hamburger"></span>
+            </label>
+
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn-outline">Login</a>
+                    <a href="signup.html" class="btn">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<main id="main-content">
+    <section class="auth-split">
+        <!-- Brand Panel -->
+        <div class="auth-brand">
+            <div class="auth-brand-content">
+                <h2>Join Our Family</h2>
+                <p>Create an account to unlock exclusive dining experiences and member perks.</p>
+                <div class="auth-features">
+                    <div class="auth-feature">✓ Priority reservations</div>
+                    <div class="auth-feature">✓ Birthday specials</div>
+                    <div class="auth-feature">✓ 10% off first order</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Form Panel -->
+        <div class="auth-form-panel">
+            <div class="auth-form-wrapper">
+                <h1>Create Account</h1>
+                <p class="auth-subtitle">Fill in your details to get started</p>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" name="password" class="form-control" placeholder="••••••••" required minlength="8">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm_password" class="form-label">Confirm Password</label>
+                        <input type="password" id="confirm_password" name="confirm_password" class="form-control" placeholder="••••••••" required minlength="8">
+                    </div>
+                    <button type="submit" class="btn w-full btn-large">Create Account</button>
+                </form>
+                <p class="auth-switch">Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="main-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- Brand -->
+            <div class="footer-brand">
+                <h3>Gourmet Haven</h3>
+                <p>Experience the finest culinary delights in a warm and elegant atmosphere. Join us for an unforgettable dining journey.</p>
+            </div>
+            
+            <!-- Interact -->
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="footer-links-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Our Menu</a></li>
+                    <li><a href="contact.html">Reservations</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal -->
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul class="footer-links-list">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form class="footer-newsletter" action="#">
+                    <input type="email" placeholder="Your Email Address" aria-label="Email Address" required>
+                    <button type="submit" class="btn w-full">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gourmet Haven. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
