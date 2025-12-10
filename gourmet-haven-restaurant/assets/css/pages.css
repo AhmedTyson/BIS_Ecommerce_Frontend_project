@@ -1,12 +1,10 @@
 /* =========================================
    PAGES.CSS - Page-Specific Styles
-   Home, About, Product, Contact, Feedback, Auth
    ========================================= */
 
 /* =========================================
-   1. Shared Page Components
+   1. Shared Hero Components
    ========================================= */
-/* Shared Hero Styles */
 .hero,
 .page-hero,
 .about-hero,
@@ -18,25 +16,21 @@
     overflow: hidden;
 }
 
-/* Common Internal Page Gradient */
 .page-hero,
 .about-hero {
     background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-secondary) 100%);
 }
 
-/* Shimmer Animation for Hero Sections */
 @keyframes heroShimmer {
     0% { background-position: 200% 0; }
     100% { background-position: -200% 0; }
 }
 
-/* Floating Decoration Animation */
 @keyframes floatDecor {
     0%, 100% { transform: translateY(0) rotate(0deg); }
     50% { transform: translateY(-20px) rotate(5deg); }
 }
 
-/* Shared SVG Overlay Pattern */
 .page-hero-overlay,
 .about-hero-overlay,
 .auth-brand::before {
@@ -47,7 +41,6 @@
     background-size: 50px 50px;
 }
 
-/* Animated Shimmer Layer */
 .page-hero::after,
 .about-hero::after {
     content: '';
@@ -66,7 +59,6 @@
     pointer-events: none;
 }
 
-/* Decorative Floating Shapes */
 .page-hero-content::before,
 .about-hero-content::before {
     content: '';
@@ -93,7 +85,6 @@
     animation: floatDecor 8s ease-in-out infinite reverse;
 }
 
-/* Shared Hero Text Styles */
 .page-hero-content,
 .about-hero-content,
 .auth-brand-content,
@@ -113,7 +104,7 @@
 }
 
 /* =========================================
-   2. Home Page - Hero Section
+   2. Home Page
    ========================================= */
 .hero {
     background: linear-gradient(135deg, rgba(44,62,80,0.85), rgba(44,62,80,0.7)), url('../images/hero_bg.webp');
@@ -154,7 +145,6 @@
     .hero-title { font-size: 2.5rem; }
 }
 
-/* CTA Section */
 .cta-section {
     background: linear-gradient(-45deg, var(--color-secondary), var(--color-secondary-light), var(--color-primary-dark), var(--color-secondary));
     background-size: 400% 400%;
@@ -231,7 +221,6 @@
     font-size: 4rem;
 }
 
-/* About Grid */
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -247,7 +236,6 @@
     height: auto;
 }
 
-/* About Stats */
 .about-stats {
     display: flex;
     gap: 40px;
@@ -287,7 +275,6 @@
     letter-spacing: 1px;
 }
 
-/* Mission Section */
 .mission-section { background: var(--color-cream); }
 
 .mission-text {
@@ -323,7 +310,6 @@
 .value-item h4 { margin-bottom: 8px; }
 .value-item p { margin-bottom: 0; font-size: 0.9rem; }
 
-/* Chef Section */
 .chef-name {
     color: var(--color-primary);
     margin-bottom: 4px;
@@ -357,7 +343,7 @@
 }
 
 /* =========================================
-   5. Auth Pages (Login/Signup)
+   5. Auth Pages
    ========================================= */
 .auth-split {
     display: grid;
@@ -366,7 +352,6 @@
 }
 
 .auth-brand {
-    /* Gradient overlay + image */
     background: linear-gradient(135deg, rgba(107, 68, 35, 0.9) 0%, rgba(28, 40, 51, 0.95) 100%),
                 url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80') center/cover no-repeat;
     padding: 60px;
@@ -385,7 +370,6 @@
 }
 
 .auth-brand-content { max-width: 400px; }
-
 .auth-brand h2 { font-size: 2.5rem; }
 
 .auth-brand p {
@@ -523,7 +507,6 @@
     color: var(--color-text-light);
 }
 
-/* Testimonials */
 .testimonials { background: var(--color-white); }
 
 .testimonial-card {
@@ -601,4 +584,131 @@
     height: 300px;
     border: none;
     pointer-events: auto;
+}
+
+/* =========================================
+   8. Menu Page - Search
+   ========================================= */
+.menu-search {
+    background: var(--color-cream);
+    padding: 40px 0;
+}
+
+.search-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: var(--color-white);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 4px 16px;
+    transition: var(--transition-normal);
+    box-shadow: var(--shadow-sm);
+}
+
+.search-box:focus-within {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 4px rgba(139, 94, 60, 0.15);
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-text-light);
+    flex-shrink: 0;
+    transition: var(--transition-fast);
+}
+
+.search-box:focus-within .search-icon {
+    fill: var(--color-primary);
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 14px 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    color: var(--color-text-main);
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: var(--color-text-light);
+}
+
+.search-clear {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: var(--color-border);
+    color: var(--color-text-light);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    font-size: 1.25rem;
+    line-height: 1;
+    transition: var(--transition-fast);
+}
+
+.search-clear:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.search-clear.hidden {
+    display: none;
+}
+
+.search-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    border: 2px solid var(--color-border);
+    background: var(--color-white);
+    color: var(--color-text-main);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.filter-btn:hover {
+    border-color: var(--color-primary-light);
+    color: var(--color-primary);
+}
+
+.filter-btn.active {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+@media (max-width: 600px) {
+    .menu-search {
+        padding: 30px 0;
+    }
+    
+    .search-filters {
+        gap: 8px;
+    }
+    
+    .filter-btn {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+    }
 }
