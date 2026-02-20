@@ -1,14 +1,19 @@
-# BIS E-Commerce Frontend Project
+# <img src="https://api.iconify.design/lucide:shopping-bag.svg?color=%238A2BE2" width="32" height="32" align="center" /> BIS E-Commerce Frontend
 
-> A dual-store frontend showcase featuring two fully realized e-commerce UIs — a mobile retail store and a restaurant — built with pure HTML, CSS, and JavaScript.
+> **A dual-store frontend showcase featuring multi-page e-commerce UIs.**
+> Precision-built for mobile retail and premium dining, demonstrating mastery of vanilla HTML/CSS/JS.
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+<div align="center">
+
+| Project Status | Type                                                                                            | Strategy                                                                                                        | Deployment     |
+| :------------- | :---------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- | :------------- |
+| `PRODUCTION`   | ![Static Site](https://img.shields.io/badge/Type-Frontend_Showcase-lightgrey?style=flat-square) | ![JS](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | `Local/Shared` |
+
+</div>
 
 ---
 
-## 📋 Table of Contents
+## <img src="https://api.iconify.design/lucide:list.svg?color=%238A2BE2" width="20" height="20" align="center" /> Table of Contents
 
 - [Overview](#overview)
 - [Stores](#-stores)
@@ -28,7 +33,9 @@ Both stores share a consistent approach: semantic HTML5 structure, responsive CS
 
 ---
 
-## 🏪 Stores
+---
+
+## <img src="https://api.iconify.design/lucide:store.svg?color=%238A2BE2" width="20" height="20" align="center" /> Stores
 
 ### 1. Harizon Mobile Store
 
@@ -71,7 +78,9 @@ A premium restaurant website with menu and reservation flow.
 
 ---
 
-## 💻 Tech Stack
+---
+
+## <img src="https://api.iconify.design/lucide:cpu.svg?color=%238A2BE2" width="20" height="20" align="center" /> Tech Stack
 
 | Layer             | Technology                                             |
 | ----------------- | ------------------------------------------------------ |
@@ -82,7 +91,9 @@ A premium restaurant website with menu and reservation flow.
 
 ---
 
-## 📁 Project Structure
+---
+
+## <img src="https://api.iconify.design/lucide:folder-tree.svg?color=%238A2BE2" width="20" height="20" align="center" /> Project Structure
 
 ```
 BIS_Ecommerce_Frontend_project/
@@ -105,7 +116,9 @@ BIS_Ecommerce_Frontend_project/
 
 ---
 
-## 🚀 Getting Started
+---
+
+## <img src="https://api.iconify.design/lucide:rocket.svg?color=%238A2BE2" width="20" height="20" align="center" /> Getting Started
 
 ```bash
 # Clone the repository
